@@ -30,10 +30,7 @@
   <ItemGroup>
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="5.0.0" />
   </ItemGroup>
-<ItemGroup>
 
-<PackageReference Include="Azure.Core" Version="1.44.1" />
-  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DotNetty.Common\DotNetty.Common.csproj" />
   </ItemGroup>
