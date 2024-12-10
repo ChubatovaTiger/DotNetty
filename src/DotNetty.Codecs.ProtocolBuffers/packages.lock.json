@@ -8,6 +8,15 @@
         "resolved": "2.4.1.555",
         "contentHash": "JsaOFX3nr6F0nGkGk7stbD2jTpvy7vgBuY+chB6+qsimMPu7YvQ6BgNOjjHd2xFqmByUCUD8pF9D07kPug8N1g=="
       },
+      "Microsoft.NETFramework.ReferenceAssemblies": {
+        "type": "Direct",
+        "requested": "[1.0.3, )",
+        "resolved": "1.0.3",
+        "contentHash": "vUc9Npcs14QsyOD01tnv/m8sQUnGTGOw1BCmKcv77LBJY7OxhJ+zJF7UD/sCL3lYNFuqmQEVlkfS4Quif6FyYg==",
+        "dependencies": {
+          "Microsoft.NETFramework.ReferenceAssemblies.net472": "1.0.3"
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces": {
         "type": "Transitive",
         "resolved": "6.0.0",
@@ -76,6 +85,11 @@
           "System.Memory": "4.5.4",
           "System.Runtime.CompilerServices.Unsafe": "5.0.0"
         }
+      },
+      "Microsoft.NETFramework.ReferenceAssemblies.net472": {
+        "type": "Transitive",
+        "resolved": "1.0.3",
+        "contentHash": "0E7evZXHXaDYYiLRfpyXvCh+yzM2rNTyuZDI+ZO7UUqSc6GfjePiXTdqJGtgIKUwdI81tzQKmaWprnUiPj9hAw=="
       },
       "Newtonsoft.Json": {
         "type": "Transitive",
