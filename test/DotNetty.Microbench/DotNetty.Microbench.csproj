@@ -9,6 +9,9 @@
     <Configurations>Debug;Release;Package</Configurations>
     <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
+    <PropertyGroup>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
   <PropertyGroup Condition=" '$(TargetFramework)' == 'net472' ">
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
   </PropertyGroup>

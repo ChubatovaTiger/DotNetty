@@ -8,6 +8,9 @@
     <Configurations>Debug;Release;Package</Configurations>
     <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
+    <PropertyGroup>
+        <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+    </PropertyGroup>
   <ItemGroup>
     <EmbeddedResource Include="..\..\shared\dotnetty.com.pfx" />
     <EmbeddedResource Include="..\..\shared\contoso.com.pfx" />
