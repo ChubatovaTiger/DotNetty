@@ -17,5 +17,9 @@ jobs:
           cache-dependency-path: "**/packages.lock.json"
       - run: dotnet restore --locked-mode --force-evaluate
       - run: dotnet build DotNetty.sln
+      - uses: actions/upload-artifact@v4
+        with:
+          name: my-artifact
+          path: "**/packages.lock.json'"
 
 
