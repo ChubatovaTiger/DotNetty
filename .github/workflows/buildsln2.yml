@@ -1,4 +1,4 @@
-name: buildsln
+name: buildsln2
 
 on:
   push:
