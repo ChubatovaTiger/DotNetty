@@ -1,4 +1,4 @@
-name: buildsln-cache
+name: buildsln-cache-windows
 
 on:
   push:
