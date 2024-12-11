@@ -23,5 +23,3 @@ SOFTWARE.
 l
 v
 s
-j
-
