@@ -24,6 +24,7 @@ d
 s
 h
 d
+k
 d
 h
 c
