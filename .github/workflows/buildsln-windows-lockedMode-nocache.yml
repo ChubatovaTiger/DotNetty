@@ -1,4 +1,4 @@
-name: buildsln-cache-windows
+name: buildsln-windows-lockedMode-nocache
 
 on:
   push:
@@ -13,8 +13,8 @@ jobs:
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '8.0.x'
-          cache: true
-          cache-dependency-path: "**/packages.lock.json"
+          cache: false
+          
       - run: dotnet restore --locked-mode 
       - run: dotnet build DotNetty.sln
 
